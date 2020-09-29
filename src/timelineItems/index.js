@@ -134,14 +134,13 @@ export const timelineItems = [
                 content: (
                     <ProjectCard
                         title="This portfolio"
-                        sourceCodeLink=""
+                        sourceCodeLink="https://github.com/Felichz/Portfolio"
                         modal={{
                             description:
                                 'A renewal of my portfolio made with React.',
                             technologies: [
                                 'React',
                                 'Javascript',
-                                'Material UI',
                             ],
                         }}
                     />

@@ -121,7 +121,7 @@ const useStyles = makeStyles((theme) => ({
         '& .MuiPaper-root': {
             minWidth: 0,
             maxWidth: '1000px',
-            margin: '0 20px',
+            margin: '0 15px',
             maxHeight: '90%',
             overflow: 'unset',
             borderRadius: '5px',
@@ -160,7 +160,7 @@ const useStyles = makeStyles((theme) => ({
         maxWidth: '100%',
     },
     iframe: {
-        backgroundColor: 'white'
+        backgroundColor: 'white',
     },
     modalTextContent: {
         display: 'flex',
@@ -189,6 +189,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         flexWrap: 'wrap',
+        padding: '0 10px',
     },
     techChip: {
         margin: '3px',
