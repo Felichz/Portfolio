@@ -48,7 +48,7 @@ export default function Modal({
                         )}
                         {video && (
                             <div className={classes.mediaContent}>
-                                <video src={video} autoPlay controls />
+                                <video src={video} className={classes.video} autoPlay controls />
                             </div>
                         )}
                         {iframe && (
@@ -119,7 +119,7 @@ export default function Modal({
 const useStyles = makeStyles((theme) => ({
     modal: {
         '& .MuiPaper-root': {
-            minWidth: 0,
+            minWidth: '300px',
             maxWidth: '1000px',
             margin: '0 15px',
             maxHeight: '90%',
@@ -158,6 +158,10 @@ const useStyles = makeStyles((theme) => ({
     },
     image: {
         maxWidth: '100%',
+    },
+    video: {
+        maxWidth: '100%',
+        marginBottom: '-1px'
     },
     iframe: {
         backgroundColor: 'white',

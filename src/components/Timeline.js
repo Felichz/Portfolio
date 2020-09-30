@@ -104,22 +104,22 @@ export const TimeLine = ({ items }) => {
 
                                     <TimelineContent
                                         className={`
-                                ${classes.timelineContent}
-                                 
-                                ${
-                                    alignIsLeft
-                                        ? classes.leftTimelineContent
-                                        : ''
-                                }
-                                 
-                                ${isMobile ? classes.timelineContentMobile : ''}
-                                 
-                                ${
-                                    isMobile && item.month
-                                        ? classes.timelineContentMobileWithMonth
-                                        : ''
-                                }
-                                `}
+                                            ${classes.timelineContent}
+                                            
+                                            ${
+                                                alignIsLeft
+                                                    ? classes.leftTimelineContent
+                                                    : ''
+                                            }
+                                            
+                                            ${isMobile ? classes.timelineContentMobile : ''}
+                                            
+                                            ${
+                                                isMobile && item.month
+                                                    ? classes.timelineContentMobileWithMonth
+                                                    : ''
+                                            }
+                                        `}
                                     >
                                         <Zoom>
                                             {isMobile ? (
