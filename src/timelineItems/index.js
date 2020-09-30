@@ -138,25 +138,6 @@ export const timelineItems = [
                         modal={{
                             description:
                                 'A renewal of my portfolio made with React.',
-                            technologies: [
-                                'React',
-                                'Javascript',
-                            ],
-                        }}
-                    />
-                ),
-            },
-            {
-                content: (
-                    <ProjectCard
-                        title="Watson Assistant Chat"
-                        image={WatsonAssistantThumb}
-                        demoLink="https://anderssonfelix.com/WatsonAssistant/"
-                        sourceCodeLink="https://github.com/Felichz/WatsonAssistantChat/"
-                        modal={{
-                            image: WatsonAssistantImg,
-                            description:
-                                'A frontend for the Watson Assistant chatbot.',
                             technologies: ['React', 'Javascript'],
                         }}
                     />
@@ -183,6 +164,22 @@ export const timelineItems = [
                                 'Native Base',
                                 'Javascript',
                             ],
+                        }}
+                    />
+                ),
+            },
+            {
+                content: (
+                    <ProjectCard
+                        title="Watson Assistant Chat"
+                        image={WatsonAssistantThumb}
+                        demoLink="https://anderssonfelix.com/WatsonAssistant/"
+                        sourceCodeLink="https://github.com/Felichz/WatsonAssistantChat/"
+                        modal={{
+                            image: WatsonAssistantImg,
+                            description:
+                                'A frontend for the Watson Assistant chatbot.',
+                            technologies: ['React', 'Javascript'],
                         }}
                     />
                 ),
